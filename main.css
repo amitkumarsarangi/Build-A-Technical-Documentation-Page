@@ -1,0 +1,40 @@
+* {margin: 0; padding: 0; border: 0; outline: none;}
+body {
+	background-color: #5a4f49;
+	color: #eeeeee;
+	font-family: "Courier New", monospace;
+}
+
+#main-doc {
+	margin: auto;
+	padding-top: 25px;
+	padding-left: 25vw;
+	padding-right: 5vw;
+	max-width: 70vw;
+}
+	.main-section {
+		margin-bottom: 70px;
+	}
+		.main-section header {
+			margin-bottom: 20px;
+			font-size: 27px;
+			letter-spacing: 1px;
+		}
+			.main-section code {
+				margin-right: 25px;
+				white-space: pre;
+				text-align: left;
+				background-color: #5a5f59;
+				font-family: "Lucida Console", Monaco, Menlo, Consolas;
+				border-radius: 5px;
+				display: block;
+			}
+			.main-section p, .main-section ul {
+				margin-bottom: 17px;
+				font-size: 17px;
+				line-height: 1.4;
+			}
+				.main-section ul li {
+					margin: 7px 0;
+					line-height: 1.4;
+				}
